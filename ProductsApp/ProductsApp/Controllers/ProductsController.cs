@@ -29,6 +29,7 @@ namespace ProductsApp.Controllers
             {
                 return NotFound();
             }
+            return Ok(product);
         }
     }
 }
